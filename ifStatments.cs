@@ -16,7 +16,7 @@ public class ifStatments : MonoBehaviour {
             Temperature ();// ເອີ້ນໃຊ້ຟັງຊັນ Temperature
         }
         
-        // Time.deltaTime : ເວລາທີ່ໃຊ້ໃນການ lander ແຕ່ລະ frame 
+        // Time.deltaTime : ເວລາທີ່ໃຊ້ໃນການ rander ແຕ່ລະ frame 
         coffeeTemperature -= Time.deltaTime * 5f; // ນັບຄ່າອຸນຫະພູມຈາກ 100 ລົງເລື່ອຍໄລ່ເປັນ frame rate per second 
     } 
 
